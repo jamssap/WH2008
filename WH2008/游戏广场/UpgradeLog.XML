@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GamePlaza">
+</Property><Property Name="Solution File" Value="E:\game66\客户端组件\游戏广场\GamePlaza.sln">
+</Property><Property Name="Date" Value="2012年4月12日">
+</Property><Property Name="Time" Value="19:29">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GamePlaza.sln" Description="File successfully backed up as E:\game66\客户端组件\游戏广场\GamePlaza.sln.old">
+</Event><Event ErrorLevel="0" Project="GamePlaza" Source="GamePlaza.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="GamePlaza" Source="GamePlaza.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GamePlaza.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GamePlaza.sln" Description="Converted">
+</Event></UpgradeLog>

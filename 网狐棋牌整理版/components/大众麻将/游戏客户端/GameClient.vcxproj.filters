@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CardControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardControl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\消息定义\CMD_Sparrow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientDlg.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreControl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\ACTION_BACK.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\ACTION_EXPLAIN.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_CHIHU.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_GIVEUP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_LISTEN.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_SCORE_CLOSE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_START.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_START_TRUSTEE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_STOP_TRUSTEE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_BACK_H.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_BACK_V.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_DOUBLE_H.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_DOUBLE_V.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_SINGLE_H.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_SINGLE_V.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_BOTTOM.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_LEFT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_RIGHT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_TOP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_BOTTOM.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_LEFT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_RIGHT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_TOP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CONTROL_BOTTOM.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CONTROL_MID.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CONTROL_TOP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GAME_LOGO.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GAME_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GAME_SCORE_FLAG.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GameClient.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\HUANG_ZHUANG.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\LISTEN_FLAG_H.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\LISTEN_FLAG_V.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\OUT_CARD_TIP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\SELECT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\TRUSTEE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\USER_ACTION.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\USER_FLAG.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\VIEW_BACK.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\View_center.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\WAIT_TIP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\WIN_LOSE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\ACTIONANI.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\ARROW.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\DISC.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\Trustee.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CARD_CUR.cur">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\GameClient.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\麻将声音\女\F_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_end.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_lose.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_lost.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_start.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_warn.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_win.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Out_card.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_8.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_8.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_9.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_9.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_8.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_8.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_9.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_9.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\Ting.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Ting.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_1.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_2.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_3.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_4.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_5.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_6.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_7.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_8.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_8.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_9.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_9.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\Chi.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Chi.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\Chi_hu.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Chi_hu.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\Gang.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Gang.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\Peng.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Peng.wav">
+      <Filter>res</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

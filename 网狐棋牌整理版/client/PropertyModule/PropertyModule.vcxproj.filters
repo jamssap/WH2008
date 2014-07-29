@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BankStorage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CharmValueExchange.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerEffectControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyModule.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleProItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankStorage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CharmValueExchange.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowerEffectControl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyItem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyModule.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleProItem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FlowerEffect\GIFT_1.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_10.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_11.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_2.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_3.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_4.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_5.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_6.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_7.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_8.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\FlowerEffect\GIFT_9.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PropertyModule.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PropertyModule.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>

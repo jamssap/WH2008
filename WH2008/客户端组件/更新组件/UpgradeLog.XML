@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AutoUpdate">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Administrator\Local Settings\Temp\Rar$DI00.078\AutoUpdate.sln">
+</Property><Property Name="Date" Value="2011年5月26日">
+</Property><Property Name="Time" Value="17:11">
+</Property></Properties><Event ErrorLevel="0" Project="AutoUpdate" Source="AutoUpdate\AutoUpdate.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="AutoUpdate" Source="AutoUpdate\AutoUpdate.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UpdateBuilder" Source="UpdateBuilder\UpdateBuilder.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="UpdateBuilder" Source="UpdateBuilder\UpdateBuilder.vcproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="AutoUpdate" Source="AutoUpdate\AutoUpdate.vcproj" Description="">
+</Event><Event ErrorLevel="2" Project="UpdateBuilder" Source="UpdateBuilder\UpdateBuilder.vcproj" Description="">
+</Event><Event ErrorLevel="0" Project="" Source="AutoUpdate.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AutoUpdate.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CardControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryRecord.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardControl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\消息定义\CMD_Land.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientDlg.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryRecord.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\AUTO_OUT_CARD.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BANKER.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BOMB.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BOMB_EFFECT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_AutoplayOff.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_AutoplayOn.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_CLOSE_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BT_SHOW_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\CARD_800.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\COUNT_SORT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GAME_END.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GAME_LOGO.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GameClient.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\GIVE_UP.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\HISTORY_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\ONE_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\ORDER_SORT.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\OUT_CARD.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\PASS.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\START.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\THREE_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\TWO_SCORE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\USER_TRUSTEE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\VIEW_BACK.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\VIEW_BUTTOM.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\VIEW_CENTER.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\WIN_LOSE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\BANKER.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\SCORE.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\USER_TRUSTEE.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CARD_CUR.cur">
+      <Filter>res</Filter>
+    </None>
+    <None Include="Res\GameClient.rc2">
+      <Filter>res</Filter>
+    </None>
+    <None Include="Res\out_card.bin">
+      <Filter>res</Filter>
+    </None>
+    <None Include="Res\wave1.bin">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\BOMB.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\CALL_CARD.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\DISPATCH_CARD.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\Game_end.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\GAME_LOST.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\Game_start.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\Game_warn.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\GAME_WIN.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\MOST_CARD.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\OUT_CARD.wav">
+      <Filter>res</Filter>
+    </Media>
+    <Media Include="Res\PASS_CARD.wav">
+      <Filter>res</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

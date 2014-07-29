@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Companion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanionListCtrl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanionManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanionTreeCtrl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCompanionManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Companion.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CompanionListCtrl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CompanionManager.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CompanionTreeCtrl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCompanionManager.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Companion.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Companion.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\LIST_IMAGE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\TREE_IMAGE.bmp">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GameService">
+</Property><Property Name="Solution File" Value="E:\game66\服务器组件\游戏服务\GameService.sln">
+</Property><Property Name="Date" Value="2012年4月20日">
+</Property><Property Name="Time" Value="10:13">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GameService.sln" Description="File successfully backed up as E:\game66\服务器组件\游戏服务\GameService.sln.old">
+</Event><Event ErrorLevel="0" Project="GameService" Source="GameService.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="GameService" Source="GameService.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GameService.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GameService.sln" Description="Converted">
+</Event></UpgradeLog>

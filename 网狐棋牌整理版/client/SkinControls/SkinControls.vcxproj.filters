@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{f42f6f08-e12e-4d7e-b1f4-deed25a43160}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{497f7b4c-7d7e-4d01-a501-76eed0bd7356}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{dafc250b-c3f0-474e-96da-3308d59695dc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="imageOle">
+      <UniqueIdentifier>{cf638d0a-94a7-4f22-825f-10e35a5cd59c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PngImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinAide.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinControls.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinEdit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinFrameWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinHyperLink.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinListCtrl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinResourceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinRichEdit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinSplitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinWndObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PngImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinAide.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinControls.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinEdit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinFrameWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinHyperLink.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinListCtrl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinResourceManager.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinRichEdit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinSplitter.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinWndObject.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\SkinControls.rc2">
+      <Filter>res</Filter>
+    </None>
+    <None Include="ImageOle.tlh">
+      <Filter>imageOle</Filter>
+    </None>
+    <None Include="ImageOle.tli">
+      <Filter>imageOle</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkinControls.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

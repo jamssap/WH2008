@@ -1,0 +1,31 @@
+	CFont MyFont;
+	LOGFONT logfont;
+
+	CRect rect(pRect);
+	rect.DeflateRect(2,2);
+
+	logfont.lfHeight = -rect.Height();
+	logfont.lfWidth = 0;
+	logfont.lfEscapement = 0;
+	logfont.lfOrientation = 0;
+	logfont.lfWeight = (bBold) ? FW_BOLD:FW_NORMAL;
+	logfont.lfItalic = FALSE;
+	logfont.lfUnderline = FALSE;
+	logfont.lfStrikeOut = FALSE;
+	logfont.lfCharSet = DEFAULT_CHARSET;
+	logfont.lfOutPrecision = OUT_DEFAULT_PRECIS;
+	logfont.lfClipPrecision = CLIP_DEFAULT_PRECIS;
+	logfont.lfQuality = DEFAULT_QUALITY;
+	logfont.lfPitchAndFamily = DEFAULT_PITCH;
+
+	_tcscpy_s(logfont.lfFaceName,ARRAY_SIZE(logfont.lfFaceName),_T("Marlett"));
+
+	MyFont.CreateFontIndirect (&logfont);
+
+	CFont* pOldFont = pDC->SelectObject (&MyFont);
+	int OldMode = pDC->SetBkMode(TRANSPARENT);
+
+	pDC->DrawText (&Sign,1,rect,DT_CENTER|DT_SINGLELINE);
+
+	pDC->SetBkMode(OldMode);
+	pDC->SelectObject(pOldFont);

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="other">
+      <UniqueIdentifier>{c30ef2e9-c675-4071-a902-89bd7cf0b8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{579ac875-5b0f-4542-a76e-96d23e957608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asyn">
+      <UniqueIdentifier>{c991f623-2aea-4c06-8e96-65f21745b9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{3b6817ad-d1de-4f64-8f27-8b53c89d2bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trace">
+      <UniqueIdentifier>{b07acacd-35f8-4640-9447-168e9f84b72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{18edd439-7abc-4e76-b0f8-00bb6fdfa85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{e30bcd61-4060-4d95-89c6-dd1820cc9786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{5386b02e-9265-4514-bf01-ebdc772202a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="queue">
+      <UniqueIdentifier>{7b9ebf4e-68b9-4e8f-9656-c149fc2f08b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KernelEngine.cpp">
+      <Filter>inc</Filter>
+    </ClCompile>
+    <ClCompile Include="AttemperEngine.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEngine.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueService.cpp">
+      <Filter>queue</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseAide.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPNetworkEngine.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocketService.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceService.cpp">
+      <Filter>trace</Filter>
+    </ClCompile>
+    <ClCompile Include="AsynchronismEngine.cpp">
+      <Filter>asyn</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KernelEngineHead.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="AttemperEngine.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEngine.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueService.h">
+      <Filter>queue</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueServiceEvent.h">
+      <Filter>queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseAide.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPNetworkEngine.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocketService.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceService.h">
+      <Filter>trace</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynchronismEngine.h">
+      <Filter>asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KernelEngine.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\KernelEngine.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>

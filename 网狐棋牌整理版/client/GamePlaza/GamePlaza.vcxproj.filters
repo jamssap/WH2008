@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgCustomFace.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgIndividualInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgStatus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FindUserDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlaza.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalUnits.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerClass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlazaViewItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomViewItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerItemView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortMessage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemOption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TableFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCompanionList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserListView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgCustomFace.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgIndividualInfo.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOption.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgStatus.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FindUserDlg.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlaza.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUnits.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerClass.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PlazaViewItem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomViewItem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerItemView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortMessage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemOption.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="TableFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCompanionList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UserListView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\CONNECT_STATUS.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\GamePlaza.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\SERVER_LIST_IMAGE.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\TABLE_LOCK.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\TABLE_READY.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\USER_STATUS.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Res\FACE_NORMAL.bmp">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GamePlaza.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GamePlaza.rc2">
+      <Filter>res</Filter>
+    </None>
+    <None Include="Res\HAND.cur">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\BUGLE.wav">
+      <Filter>res</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

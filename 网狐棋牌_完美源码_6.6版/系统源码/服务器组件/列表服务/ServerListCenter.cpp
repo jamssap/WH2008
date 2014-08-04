@@ -613,9 +613,11 @@ void CServerListCenter::LoadGameStation(CDataBaseAide & DataBaseAide)
 //获取质数
 UINT CServerListCenter::GetMaxPrime(UINT uLessNum)
 {
-	for (UINT uPrime=uLessNum;uPrime>2;uPrime--)
+    UINT uPrime=uLessNum;
+	for (;uPrime>2;uPrime--)
 	{
-		for(UINT u2=2;u2<=uPrime/2;u2++) if (uPrime%u2==0) break;
+        UINT u2=2;
+		for(;u2<=uPrime/2;u2++) if (uPrime%u2==0) break;
 		if (u2>uPrime/2) break;
 	}
 

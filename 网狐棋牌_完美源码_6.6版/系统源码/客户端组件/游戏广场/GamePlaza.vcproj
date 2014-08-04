@@ -1,188 +1,274 @@
 <?xml version="1.0" encoding="gb2312"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="7.10"
+	Version="9.00"
 	Name="游戏广场 "
 	ProjectGUID="{2A4255D8-9D65-4B56-9775-79ECF6AF3040}"
-	Keyword="MFCProj">
+	Keyword="MFCProj"
+	TargetFrameworkVersion="131072"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory="Debug"
 			IntermediateDirectory="Debug"
 			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="2"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="false"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG"
-				MinimalRebuild="TRUE"
+				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
-				TreatWChar_tAsBuiltInType="TRUE"
-				UsePrecompiledHeader="3"
+				TreatWChar_tAsBuiltInType="true"
+				UsePrecompiledHeader="2"
 				WarningLevel="3"
-				Detect64BitPortabilityProblems="TRUE"
-				DebugInformationFormat="4"/>
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="4"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="2052"
+				AdditionalIncludeDirectories="$(IntDir)"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="../../链接库/ComServiceD.lib ../../链接库/ClientShareD.lib ../../链接库/SkinControlsD.lib ../../链接库/ChannelModuleD.lib ../../链接库/PropertyModuleD.lib Winmm.lib Zipd.lib"
 				OutputFile="../../运行/Debug/GamePlaza.exe"
 				LinkIncremental="2"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
 				SubSystem="2"
-				TargetMachine="1"/>
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
+				TargetMachine="1"
+			/>
 			<Tool
-				Name="VCMIDLTool"
-				PreprocessorDefinitions="_DEBUG"
-				MkTypLibCompatible="FALSE"/>
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="mkdir ..\..\发布组件\客户端组件\Debug
-copy /y ..\..\运行\Debug\$(TargetFileName) ..\..\发布组件\客户端组件\Debug\$(TargetFileName)
-"/>
-			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_DEBUG"
-				Culture="2052"
-				AdditionalIncludeDirectories="$(IntDir)"/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"/>
-			<Tool
-				Name="VCWebDeploymentTool"/>
-			<Tool
-				Name="VCManagedWrapperGeneratorTool"/>
-			<Tool
-				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+				CommandLine="mkdir ..\..\发布组件\客户端组件\Debug&#x0D;&#x0A;copy /y ..\..\运行\Debug\$(TargetFileName) ..\..\发布组件\客户端组件\Debug\$(TargetFileName)&#x0D;&#x0A;"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory="Release"
 			IntermediateDirectory="Release"
 			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="2"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="false"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG"
-				MinimalRebuild="FALSE"
+				MinimalRebuild="false"
 				RuntimeLibrary="2"
-				TreatWChar_tAsBuiltInType="TRUE"
-				UsePrecompiledHeader="3"
+				TreatWChar_tAsBuiltInType="true"
+				UsePrecompiledHeader="2"
 				WarningLevel="3"
-				Detect64BitPortabilityProblems="TRUE"
-				DebugInformationFormat="3"/>
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="3"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="2052"
+				AdditionalIncludeDirectories="$(IntDir)"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="../../链接库/ComService.lib ../../链接库/ClientShare.lib ../../链接库/SkinControls.lib ../../链接库/ChannelModule.lib ../../链接库/PropertyModule.lib Zip.lib Winmm.lib"
 				OutputFile="../../运行/Release/GamePlaza.exe"
 				LinkIncremental="1"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
-				TargetMachine="1"/>
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
+				TargetMachine="1"
+			/>
 			<Tool
-				Name="VCMIDLTool"
-				PreprocessorDefinitions="NDEBUG"
-				MkTypLibCompatible="FALSE"/>
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="mkdir ..\..\发布组件\客户端组件\Release
-copy /y ..\..\运行\Release\$(TargetFileName) ..\..\发布组件\客户端组件\Release\$(TargetFileName)
-"/>
-			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="NDEBUG"
-				Culture="2052"
-				AdditionalIncludeDirectories="$(IntDir)"/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"/>
-			<Tool
-				Name="VCWebDeploymentTool"/>
-			<Tool
-				Name="VCManagedWrapperGeneratorTool"/>
-			<Tool
-				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+				CommandLine="mkdir ..\..\发布组件\客户端组件\Release&#x0D;&#x0A;copy /y ..\..\运行\Release\$(TargetFileName) ..\..\发布组件\客户端组件\Release\$(TargetFileName)&#x0D;&#x0A;"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Admin_Release|Win32"
 			OutputDirectory="$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="2"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="false"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ADMIN_PLAZA"
-				MinimalRebuild="FALSE"
+				MinimalRebuild="false"
 				RuntimeLibrary="2"
-				TreatWChar_tAsBuiltInType="TRUE"
-				UsePrecompiledHeader="3"
+				TreatWChar_tAsBuiltInType="true"
+				UsePrecompiledHeader="2"
 				WarningLevel="3"
-				Detect64BitPortabilityProblems="TRUE"
-				DebugInformationFormat="3"/>
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="3"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="2052"
+				AdditionalIncludeDirectories="$(IntDir)"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="../../链接库/ComService.lib ../../链接库/ClientShare.lib ../../链接库/SkinControls.lib ../../链接库/ChannelModule.lib ../../链接库/PropertyModule.lib Zip.lib Winmm.lib"
 				OutputFile="../../运行/Release/AdminPlaza.exe"
 				LinkIncremental="1"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
-				TargetMachine="1"/>
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
+				TargetMachine="1"
+			/>
 			<Tool
-				Name="VCMIDLTool"
-				PreprocessorDefinitions="NDEBUG"
-				MkTypLibCompatible="FALSE"/>
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="mkdir ..\..\发布组件\客户端组件\Release
-copy /y ..\..\运行\Release\$(TargetFileName) ..\..\发布组件\客户端组件\Release\$(TargetFileName)
-"/>
-			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="NDEBUG"
-				Culture="2052"
-				AdditionalIncludeDirectories="$(IntDir)"/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"/>
-			<Tool
-				Name="VCWebDeploymentTool"/>
-			<Tool
-				Name="VCManagedWrapperGeneratorTool"/>
-			<Tool
-				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+				CommandLine="mkdir ..\..\发布组件\客户端组件\Release&#x0D;&#x0A;copy /y ..\..\运行\Release\$(TargetFileName) ..\..\发布组件\客户端组件\Release\$(TargetFileName)&#x0D;&#x0A;"
+			/>
 		</Configuration>
 	</Configurations>
 	<References>
@@ -191,697 +277,926 @@ copy /y ..\..\运行\Release\$(TargetFileName) ..\..\发布组件\客户端组件\Release\$
 		<Filter
 			Name="源文件"
 			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
-			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
 			<File
-				RelativePath=".\DlgCustomFace.cpp">
+				RelativePath=".\DlgCustomFace.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgIndividualInfo.cpp">
+				RelativePath=".\DlgIndividualInfo.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgLogon.cpp">
+				RelativePath=".\DlgLogon.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgOption.cpp">
+				RelativePath=".\DlgOption.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgStatus.cpp">
+				RelativePath=".\DlgStatus.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\FindUserDlg.cpp">
+				RelativePath=".\FindUserDlg.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\GameFrame.cpp">
+				RelativePath=".\GameFrame.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\GamePlaza.cpp">
+				RelativePath=".\GamePlaza.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\GlobalUnits.cpp">
+				RelativePath=".\GlobalUnits.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\ManagerClass.cpp">
+				RelativePath=".\ManagerClass.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\PlazaViewItem.cpp">
+				RelativePath=".\PlazaViewItem.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\RoomViewItem.cpp">
+				RelativePath=".\RoomViewItem.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\ServerItemView.cpp">
+				RelativePath=".\ServerItemView.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\ShortMessage.cpp">
+				RelativePath=".\ShortMessage.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\Stdafx.cpp">
+				RelativePath=".\Stdafx.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
-						UsePrecompiledHeader="1"/>
+						UsePrecompiledHeader="1"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
-						UsePrecompiledHeader="1"/>
+						UsePrecompiledHeader="1"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Admin_Release|Win32">
+					Name="Admin_Release|Win32"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
-						UsePrecompiledHeader="1"/>
+						UsePrecompiledHeader="1"
+					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath=".\SystemOption.cpp">
+				RelativePath=".\SystemOption.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\TableFrame.cpp">
+				RelativePath=".\TableFrame.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\UserCompanionList.cpp">
+				RelativePath=".\UserCompanionList.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\UserInfoView.cpp">
+				RelativePath=".\UserInfoView.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\UserListView.cpp">
+				RelativePath=".\UserListView.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\UserManager.cpp">
+				RelativePath=".\UserManager.cpp"
+				>
 			</File>
 		</Filter>
 		<Filter
 			Name="头文件"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
-			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
 			<File
-				RelativePath=".\DlgCustomFace.h">
+				RelativePath=".\DlgCustomFace.h"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgIndividualInfo.h">
+				RelativePath=".\DlgIndividualInfo.h"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgLogon.h">
+				RelativePath=".\DlgLogon.h"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgOption.h">
+				RelativePath=".\DlgOption.h"
+				>
 			</File>
 			<File
-				RelativePath=".\DlgStatus.h">
+				RelativePath=".\DlgStatus.h"
+				>
 			</File>
 			<File
-				RelativePath=".\FindUserDlg.h">
+				RelativePath=".\FindUserDlg.h"
+				>
 			</File>
 			<File
-				RelativePath=".\GameFrame.h">
+				RelativePath=".\GameFrame.h"
+				>
 			</File>
 			<File
-				RelativePath=".\GamePlaza.h">
+				RelativePath=".\GamePlaza.h"
+				>
 			</File>
 			<File
-				RelativePath=".\GlobalUnits.h">
+				RelativePath=".\GlobalUnits.h"
+				>
 			</File>
 			<File
-				RelativePath=".\ManagerClass.h">
+				RelativePath=".\ManagerClass.h"
+				>
 			</File>
 			<File
-				RelativePath=".\PlazaViewItem.h">
+				RelativePath=".\PlazaViewItem.h"
+				>
 			</File>
 			<File
-				RelativePath=".\Resource.h">
+				RelativePath=".\Resource.h"
+				>
 			</File>
 			<File
-				RelativePath=".\RoomViewItem.h">
+				RelativePath=".\RoomViewItem.h"
+				>
 			</File>
 			<File
-				RelativePath=".\ServerItemView.h">
+				RelativePath=".\ServerItemView.h"
+				>
 			</File>
 			<File
-				RelativePath=".\ShortMessage.h">
+				RelativePath=".\ShortMessage.h"
+				>
 			</File>
 			<File
-				RelativePath=".\Stdafx.h">
+				RelativePath=".\Stdafx.h"
+				>
 			</File>
 			<File
-				RelativePath=".\SystemOption.h">
+				RelativePath=".\SystemOption.h"
+				>
 			</File>
 			<File
-				RelativePath=".\TableFrame.h">
+				RelativePath=".\TableFrame.h"
+				>
 			</File>
 			<File
-				RelativePath=".\UserCompanionList.h">
+				RelativePath=".\UserCompanionList.h"
+				>
 			</File>
 			<File
-				RelativePath=".\UserInfoView.h">
+				RelativePath=".\UserInfoView.h"
+				>
 			</File>
 			<File
-				RelativePath=".\UserListView.h">
+				RelativePath=".\UserListView.h"
+				>
 			</File>
 			<File
-				RelativePath=".\UserManager.h">
+				RelativePath=".\UserManager.h"
+				>
 			</File>
 			<File
-				RelativePath=".\Zip.h">
+				RelativePath=".\Zip.h"
+				>
 			</File>
 		</Filter>
 		<Filter
 			Name="资源文件"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
-			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
 			<File
-				RelativePath=".\Res\BAR_BUTTON.bmp">
+				RelativePath=".\Res\BAR_BUTTON.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_BUTTON_EXIT.bmp">
+				RelativePath=".\Res\BAR_BUTTON_EXIT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_BUTTON_FRIEND.bmp">
+				RelativePath=".\Res\BAR_BUTTON_FRIEND.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_BUTTON_NUMBER.bmp">
+				RelativePath=".\Res\BAR_BUTTON_NUMBER.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_BUTTON_QUIT.bmp">
+				RelativePath=".\Res\BAR_BUTTON_QUIT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_BUTTON_SELF_SET.bmp">
+				RelativePath=".\Res\BAR_BUTTON_SELF_SET.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_BUTTON_SET.bmp">
+				RelativePath=".\Res\BAR_BUTTON_SET.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_ITEM.bmp">
+				RelativePath=".\Res\BAR_ITEM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_ITEM_HOME.bmp">
+				RelativePath=".\Res\BAR_ITEM_HOME.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_LEFT.bmp">
+				RelativePath=".\Res\BAR_LEFT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_MID.bmp">
+				RelativePath=".\Res\BAR_MID.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_MIN.bmp">
+				RelativePath=".\Res\BAR_MIN.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BAR_RIGHT.bmp">
+				RelativePath=".\Res\BAR_RIGHT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_AUTO_JOIN.bmp">
+				RelativePath=".\Res\BT_AUTO_JOIN.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_BANK.bmp">
+				RelativePath=".\Res\BT_BANK.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Bt_bugle.bmp">
+				RelativePath=".\Res\Bt_bugle.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_CLEAN_SCREEN.bmp">
+				RelativePath=".\Res\BT_CLEAN_SCREEN.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_COLOR_SET.bmp">
+				RelativePath=".\Res\BT_COLOR_SET.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_EXPESSION.bmp">
+				RelativePath=".\Res\BT_EXPESSION.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_HIDE_LIST_1.bmp">
+				RelativePath=".\Res\BT_HIDE_LIST_1.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_HIDE_LIST_2.bmp">
+				RelativePath=".\Res\BT_HIDE_LIST_2.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_QUIT_ROOM.bmp">
+				RelativePath=".\Res\BT_QUIT_ROOM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SEARCH_USER.bmp">
+				RelativePath=".\Res\BT_SEARCH_USER.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SEND_CHAT.bmp">
+				RelativePath=".\Res\BT_SEND_CHAT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SHORT_MSG_CLEAN_SCREEN.bmp">
+				RelativePath=".\Res\BT_SHORT_MSG_CLEAN_SCREEN.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SHORT_MSG_COLOR_SET.bmp">
+				RelativePath=".\Res\BT_SHORT_MSG_COLOR_SET.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SHORT_MSG_EXPESSION.bmp">
+				RelativePath=".\Res\BT_SHORT_MSG_EXPESSION.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SHOW_LIST_1.bmp">
+				RelativePath=".\Res\BT_SHOW_LIST_1.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_SHOW_LIST_2.bmp">
+				RelativePath=".\Res\BT_SHOW_LIST_2.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_WEB_BEFORE.bmp">
+				RelativePath=".\Res\BT_WEB_BEFORE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_WEB_BRUSH.bmp">
+				RelativePath=".\Res\BT_WEB_BRUSH.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_WEB_HOME.bmp">
+				RelativePath=".\Res\BT_WEB_HOME.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_WEB_NEXT.bmp">
+				RelativePath=".\Res\BT_WEB_NEXT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\BT_WEB_STOP.bmp">
+				RelativePath=".\Res\BT_WEB_STOP.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_BL.bmp">
+				RelativePath=".\Res\CHAT_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_BM.bmp">
+				RelativePath=".\Res\CHAT_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_BR.bmp">
+				RelativePath=".\Res\CHAT_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_BUGLE.bmp">
+				RelativePath=".\Res\CHAT_BUGLE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_LM.bmp">
+				RelativePath=".\Res\CHAT_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_RM.bmp">
+				RelativePath=".\Res\CHAT_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_TL.bmp">
+				RelativePath=".\Res\CHAT_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_TM.bmp">
+				RelativePath=".\Res\CHAT_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CHAT_TR.bmp">
+				RelativePath=".\Res\CHAT_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\CONNECT_STATUS.bmp">
+				RelativePath=".\Res\CONNECT_STATUS.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FACE_NORMAL.bmp">
+				RelativePath=".\Res\FACE_NORMAL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower1.bmp">
+				RelativePath=".\Res\Flowers\Flower1.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower10.bmp">
+				RelativePath=".\Res\Flowers\Flower10.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower11.bmp">
+				RelativePath=".\Res\Flowers\Flower11.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower2.bmp">
+				RelativePath=".\Res\Flowers\Flower2.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower3.bmp">
+				RelativePath=".\Res\Flowers\Flower3.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower4.bmp">
+				RelativePath=".\Res\Flowers\Flower4.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower5.bmp">
+				RelativePath=".\Res\Flowers\Flower5.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower6.bmp">
+				RelativePath=".\Res\Flowers\Flower6.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower7.bmp">
+				RelativePath=".\Res\Flowers\Flower7.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower8.bmp">
+				RelativePath=".\Res\Flowers\Flower8.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Flowers\Flower9.bmp">
+				RelativePath=".\Res\Flowers\Flower9.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_AVATAR.bmp">
+				RelativePath=".\Res\FRAME_AVATAR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BL.bmp">
+				RelativePath=".\Res\FRAME_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BM.bmp">
+				RelativePath=".\Res\FRAME_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BR.bmp">
+				RelativePath=".\Res\FRAME_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BANK.bmp">
+				RelativePath=".\Res\FRAME_BT_BANK.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BBS.bmp">
+				RelativePath=".\Res\FRAME_BT_BBS.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BUTTON_1.bmp">
+				RelativePath=".\Res\FRAME_BT_BUTTON_1.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BUTTON_2.bmp">
+				RelativePath=".\Res\FRAME_BT_BUTTON_2.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BUTTON_3.bmp">
+				RelativePath=".\Res\FRAME_BT_BUTTON_3.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BUTTON_4.bmp">
+				RelativePath=".\Res\FRAME_BT_BUTTON_4.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_BUTTON_5.bmp">
+				RelativePath=".\Res\FRAME_BT_BUTTON_5.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_MATCH.bmp">
+				RelativePath=".\Res\FRAME_BT_MATCH.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_MEBER.bmp">
+				RelativePath=".\Res\FRAME_BT_MEBER.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_MOBILE.bmp">
+				RelativePath=".\Res\FRAME_BT_MOBILE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_BT_MONEY.bmp">
+				RelativePath=".\Res\FRAME_BT_MONEY.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_CLOSE.bmp">
+				RelativePath=".\Res\FRAME_CLOSE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_FORUM.bmp">
+				RelativePath=".\Res\FRAME_FORUM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_GOLD.bmp">
+				RelativePath=".\Res\FRAME_GOLD.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_L.bmp">
+				RelativePath=".\Res\FRAME_L.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_LB.bmp">
+				RelativePath=".\Res\FRAME_LB.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_MAIN.bmp">
+				RelativePath=".\Res\FRAME_MAIN.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_MAX.bmp">
+				RelativePath=".\Res\FRAME_MAX.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_MIN.bmp">
+				RelativePath=".\Res\FRAME_MIN.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_R.bmp">
+				RelativePath=".\Res\FRAME_R.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_RB.bmp">
+				RelativePath=".\Res\FRAME_RB.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_RESORE.bmp">
+				RelativePath=".\Res\FRAME_RESORE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_TL.bmp">
+				RelativePath=".\Res\FRAME_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_TM.bmp">
+				RelativePath=".\Res\FRAME_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\FRAME_TR.bmp">
+				RelativePath=".\Res\FRAME_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\res\GamePlaza.ico">
+				RelativePath=".\res\GamePlaza.ico"
+				>
 			</File>
 			<File
-				RelativePath=".\GamePlaza.rc">
+				RelativePath=".\GamePlaza.rc"
+				>
 			</File>
 			<File
-				RelativePath=".\res\GamePlaza.rc2">
+				RelativePath=".\res\GamePlaza.rc2"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\HAND.cur">
+				RelativePath=".\Res\HAND.cur"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\HIDE_GAME_LIST.bmp">
+				RelativePath=".\Res\HIDE_GAME_LIST.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_BL.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_BM.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_BR.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_LM.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_RM.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_TL.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_TM.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_chat\LEFT_CHAT_TR.bmp">
+				RelativePath=".\Res\Left_chat\LEFT_CHAT_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_BL.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_BM.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_BR.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_LM.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_RM.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_TL.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_TM.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_list\LEFT_LIST_TR.bmp">
+				RelativePath=".\Res\Left_list\LEFT_LIST_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_LB.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_LB.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_LBM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_LBM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_LM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_LT.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_LT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_LTM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_LTM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_MB.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_MB.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_MM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_MM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_MMM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_MMM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_MT.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_MT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_MTM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_MTM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_RB.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_RB.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_RBM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_RBM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_RM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_RT.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_RT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Left_view\LEFT_VIEW_RTM.bmp">
+				RelativePath=".\Res\Left_view\LEFT_VIEW_RTM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\LOGON_LOGO.bmp">
+				RelativePath=".\Res\LOGON_LOGO.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\OP_ACTIVE.bmp">
+				RelativePath=".\Res\OP_ACTIVE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\OP_BACKGROUND.bmp">
+				RelativePath=".\Res\OP_BACKGROUND.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\OP_HOT.bmp">
+				RelativePath=".\Res\OP_HOT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\OP_NORMAL.bmp">
+				RelativePath=".\Res\OP_NORMAL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\OPTIONS_HOT.bmp">
+				RelativePath=".\Res\OPTIONS_HOT.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\ROOM_BAR.bmp">
+				RelativePath=".\Res\ROOM_BAR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\ROOM_BAR_BUTTON.bmp">
+				RelativePath=".\Res\ROOM_BAR_BUTTON.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\ROOM_LINE.bmp">
+				RelativePath=".\Res\ROOM_LINE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_BL.bmp">
+				RelativePath=".\Res\Server\SERVER_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_BM.bmp">
+				RelativePath=".\Res\Server\SERVER_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_BR.bmp">
+				RelativePath=".\Res\Server\SERVER_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\SERVER_LIST_IMAGE.bmp">
+				RelativePath=".\Res\SERVER_LIST_IMAGE.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_LM.bmp">
+				RelativePath=".\Res\Server\SERVER_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_RM.bmp">
+				RelativePath=".\Res\Server\SERVER_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_TL.bmp">
+				RelativePath=".\Res\Server\SERVER_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_TM.bmp">
+				RelativePath=".\Res\Server\SERVER_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_TMM.bmp">
+				RelativePath=".\Res\Server\SERVER_TMM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Server\SERVER_TR.bmp">
+				RelativePath=".\Res\Server\SERVER_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\SHOW_GAME_LIST.bmp">
+				RelativePath=".\Res\SHOW_GAME_LIST.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_BL.bmp">
+				RelativePath=".\Res\Table\TABLE_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_BM.bmp">
+				RelativePath=".\Res\Table\TABLE_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_BR.bmp">
+				RelativePath=".\Res\Table\TABLE_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_LM.bmp">
+				RelativePath=".\Res\Table\TABLE_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\TABLE_LOCK.bmp">
+				RelativePath=".\Res\TABLE_LOCK.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\TABLE_READY.bmp">
+				RelativePath=".\Res\TABLE_READY.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_RM.bmp">
+				RelativePath=".\Res\Table\TABLE_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_TL.bmp">
+				RelativePath=".\Res\Table\TABLE_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_TM.bmp">
+				RelativePath=".\Res\Table\TABLE_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Table\TABLE_TR.bmp">
+				RelativePath=".\Res\Table\TABLE_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_BL.bmp">
+				RelativePath=".\Res\USER_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_BM.bmp">
+				RelativePath=".\Res\USER_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_BR.bmp">
+				RelativePath=".\Res\USER_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_INFO_L.bmp">
+				RelativePath=".\Res\USER_INFO_L.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_INFO_M.bmp">
+				RelativePath=".\Res\USER_INFO_M.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_INFO_R.bmp">
+				RelativePath=".\Res\USER_INFO_R.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_LM.bmp">
+				RelativePath=".\Res\USER_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_RM.bmp">
+				RelativePath=".\Res\USER_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_STATUS.bmp">
+				RelativePath=".\Res\USER_STATUS.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_STAUS.bmp">
+				RelativePath=".\Res\USER_STAUS.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_TL.bmp">
+				RelativePath=".\Res\USER_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_TM.bmp">
+				RelativePath=".\Res\USER_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\USER_TR.bmp">
+				RelativePath=".\Res\USER_TR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\wave1.bin">
+				RelativePath=".\Res\wave1.bin"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_BL.bmp">
+				RelativePath=".\Res\Web\WEB_BL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_BM.bmp">
+				RelativePath=".\Res\Web\WEB_BM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_BR.bmp">
+				RelativePath=".\Res\Web\WEB_BR.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_LM.bmp">
+				RelativePath=".\Res\Web\WEB_LM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_RM.bmp">
+				RelativePath=".\Res\Web\WEB_RM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_TL.bmp">
+				RelativePath=".\Res\Web\WEB_TL.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_TM.bmp">
+				RelativePath=".\Res\Web\WEB_TM.bmp"
+				>
 			</File>
 			<File
-				RelativePath=".\Res\Web\WEB_TR.bmp">
+				RelativePath=".\Res\Web\WEB_TR.bmp"
+				>
 			</File>
 		</Filter>
 		<File
-			RelativePath=".\Res\BUGLE.wav">
+			RelativePath=".\Res\BUGLE.wav"
+			>
 		</File>
 		<File
-			RelativePath=".\res\GamePlaza.manifest">
+			RelativePath=".\res\GamePlaza.manifest"
+			>
 		</File>
 	</Files>
 	<Globals>
 		<Global
 			Name="RESOURCE_FILE"
-			Value="GamePlaza.rc"/>
+			Value="GamePlaza.rc"
+		/>
 	</Globals>
 </VisualStudioProject>

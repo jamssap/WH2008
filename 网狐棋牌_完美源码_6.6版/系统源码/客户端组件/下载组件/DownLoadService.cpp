@@ -597,7 +597,8 @@ DWORD __cdecl CDownLoadService::AddDownLoadRequest(DWORD dwDownLoadType, tagDown
 void CDownLoadService::OnMissionFinish(enDownLoadStatus DownLoadStatus, CDownLoadMission * pDownLoadMission)
 {
 	//я╟уробть
-	for (INT_PTR i=0;i<m_DownLoadMissionActive.GetCount();i++)
+    INT_PTR i=0;
+	for (;i<m_DownLoadMissionActive.GetCount();i++)
 	{
 		if (pDownLoadMission==m_DownLoadMissionActive[i]) break;
 	}

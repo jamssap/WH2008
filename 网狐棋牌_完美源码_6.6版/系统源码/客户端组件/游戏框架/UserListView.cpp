@@ -367,8 +367,8 @@ void CUserListView::FillUserListItem(int iItem, tagUserData * pUserData)
 			//»ñÈ¡Íæ¼Ò
 			tagUserData *pLookUserData = (tagUserData *)GetItemData(j);
 			if(pLookUserData->cbUserStatus!=US_LOOKON)continue;
-
-			for ( int i=0; i<nItemCount;i++)
+             int i=0;
+			for ( ; i<nItemCount;i++)
 			{
 				if(i==j)continue;
 				tagUserData *pTargetUserData = (tagUserData *)GetItemData(i);

@@ -315,7 +315,8 @@ int CMessageProxy::TranslateChar(LPCTSTR szCharString, int iCharLength, int & iP
 				iInputLenth=iCharLength-i;
 				iItemLength=pItem->m_wTranceLength;
 				if (iItemLength>iInputLenth) continue;
-				for (int k=2;k<iItemLength;k++)
+                int k=2;
+				for (;k<iItemLength;k++)
 				{
 					if ((szCharString[i+k]!=pItem->m_szTrancelate[k])&&(szCharString[i+k]!=(pItem->m_szTrancelate[k]+32))) break;
 				}

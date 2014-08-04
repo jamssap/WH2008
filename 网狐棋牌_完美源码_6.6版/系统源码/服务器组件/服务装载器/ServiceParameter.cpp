@@ -505,7 +505,8 @@ void CServiceParameter::UpdateOptionParameter()
 	//·þÎñµØÖ·
 	CComboBox * pServerAddr=(CComboBox *)GetDlgItem(IDC_SERVER_ADDR);
 	int nItemCount=pServerAddr->GetCount();
-	for (int i=0;i<nItemCount;i++)
+    int i=0;
+	for (;i<nItemCount;i++)
 	{
 		DWORD_PTR dwItemAddr=pServerAddr->GetItemData(i);
 		if (m_OptionParameter.GameServiceOption.dwServerAddr==dwItemAddr) 

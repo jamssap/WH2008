@@ -139,7 +139,8 @@ CServerListManager::CServerListManager()
 CServerListManager::~CServerListManager()
 {
 	INT_PTR nCount=m_PtrArrayType.GetCount();
-	for (int i=0;i<nCount;i++) delete m_PtrArrayType[i];
+    int i=0;
+	for (;i<nCount;i++) delete m_PtrArrayType[i];
 	m_PtrArrayType.RemoveAll();
 
 	nCount=m_PtrArrayKind.GetCount();

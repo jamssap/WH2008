@@ -85,7 +85,8 @@ bool __cdecl CGameRankManager::LoadGameLevel(LPCTSTR pszDirectory, WORD wGameGen
 
 			//读取等级
 			WORD wStringIndex=0;
-			for (WORD i=0;i<CountArray(pLevelDescribe->szLevelName)-1;i++)
+            WORD i=0;
+			for (;i<CountArray(pLevelDescribe->szLevelName)-1;i++)
 			{
 				//过虑处理
 				if ((szReadData[i]==TEXT(','))||(szReadData[i]==0)) break;

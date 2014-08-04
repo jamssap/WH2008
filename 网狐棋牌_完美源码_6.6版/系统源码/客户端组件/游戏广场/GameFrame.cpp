@@ -49,7 +49,7 @@ BEGIN_MESSAGE_MAP(CGameFrame, CFrameWnd)
 	ON_WM_PAINT()
 	ON_WM_CLOSE()
 	ON_WM_CREATE()
-	ON_WM_NCHITTEST()
+	//ON_WM_NCHITTEST()
 	ON_WM_ERASEBKGND()
 	ON_WM_LBUTTONDOWN()
 	ON_WM_LBUTTONDBLCLK()
@@ -568,7 +568,8 @@ bool CGameFrame::UpdateSkinResource()
 	m_btListControl2.SetButtonImage(uControl2,hResInstance,false);
 
 	//…Ë÷√Õº∆¨
-	for (int i=0;i<CountArray(m_pRoomViewItem);i++)
+    int i=0;
+	for (;i<CountArray(m_pRoomViewItem);i++)
 	{
 		if(m_pActiveViewItem==m_pRoomViewItem[i])break;
 	}
@@ -1057,7 +1058,8 @@ void CGameFrame::RectifyControl(int nWidth, int nHeight)
 	UnlockWindowUpdate();
 
 	//∏¸ªª∆§∑Ù
-	for (int i=0;i<CountArray(m_btViewItem);i++)
+    int i=0;
+	for (;i<CountArray(m_btViewItem);i++)
 	{
 		if(m_pActiveViewItem==m_pRoomViewItem[i])break;
 	}

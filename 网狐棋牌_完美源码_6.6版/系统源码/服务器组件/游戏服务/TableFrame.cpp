@@ -1926,10 +1926,12 @@ bool __cdecl CTableFrame::SwitchUserChair(WORD wSourceID[], WORD wTargetID[], WO
 	if ((wSwitchCount==0)||(wSwitchCount>=m_wChairCount)) return false;
 
 	//½»»»ÅÐ¶Ï
-	for (WORD i=0;i<wSwitchCount;i++)
+    WORD i=0;
+    WORD j=0;
+	for (;i<wSwitchCount;i++)
 	{
 		//½»»»ÅÐ¶Ï
-		for (WORD j=0;j<wSwitchCount;j++)
+		for (;j<wSwitchCount;j++)
 		{
 			if (wSourceID[i]==wTargetID[j]) break;
 		}

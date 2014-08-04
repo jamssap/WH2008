@@ -172,7 +172,8 @@ const tagCompanionItem * __cdecl CCompanionManager::InsertCompanionItem(tagCompa
 	//—∞’“πÿœµ
 	bool bChangeCompanion=false;
 	tagCompanionItem * pCompanionItem=NULL;
-	for (INT_PTR i=0;i<m_CompanionItemActive.GetCount();i++)
+    INT_PTR i=0;
+	for (;i<m_CompanionItemActive.GetCount();i++)
 	{
 		pCompanionItem=m_CompanionItemActive[i];
 		ASSERT(pCompanionItem!=NULL);
